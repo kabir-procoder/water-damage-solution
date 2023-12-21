@@ -1,0 +1,343 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');
+body
+{
+    margin: 0;
+    padding: 0;
+    font-family: 'Oswald', sans-serif;
+    overflow-x: hidden;
+}
+*
+{
+    margin: 0;
+    padding: 0;
+    outline: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+::before,::after
+{
+    box-sizing: border-box;
+}
+a
+{
+    text-decoration: none;
+}
+img
+{
+    width: 100%;
+}
+ul,li
+{
+    list-style: none;
+    padding: 0;
+}
+/* Navigation */
+.navarea img
+{
+    width: 210px;
+    height: 120px;
+}
+.navarea 
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* herosection */
+.herosection
+{
+    background:linear-gradient(0deg, rgba(0, 195, 255, 0.842), rgba(0, 162, 255, 0.3)), url('../images/hero.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: contain;
+    height: 50vh;
+}
+.hero-content
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    height: 50vh;
+}
+.utilities a
+{
+    font-family: 'Oswald', sans-serif;
+    font-size: 26px;
+    letter-spacing: 1.5px;
+    font-weight: 700;
+    color: #ed1b24;
+    padding: 5px 20px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.hero-content h1
+{
+    font-family: 'Oswald', sans-serif;
+    font-size: 78px;
+    color: #fff;
+    font-weight: 700;
+    width: 100%;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 15px;
+    letter-spacing: 5px;
+}
+.btn-standard .wrap a {
+    font-family: 'Oswald', sans-serif;
+    font-size: 26px;
+    letter-spacing: 1.5px;
+    font-weight: 500;
+    color: #FFFFFF;
+    background: #ed1b24;
+    padding: 5px 80px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    clip-path: polygon(0% 0%, 100% 0%, 95% 100%, 5% 100%);
+}
+.btn-standard .wrap a:hover
+{
+    background: #fcb712;
+}
+@media (max-width: 600px) {
+    .btn-standard .wrap a
+    {
+        font-size: 18px;
+    }
+}
+/* About Us Section */
+.intro h1
+{
+    font-family: 'Oswald', sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 1.1;
+    color: #575757;
+}
+.intro p
+{
+    font-family: 'Oswald', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    line-height: 1.8;
+    color: #575757;
+    margin-top: 40px;
+}
+/* Services */
+.servicecontent
+{
+    width: 100%;
+}
+.textblk
+{
+    padding: 60px;
+}
+.textblk h2 {
+    font-size: 32px;
+    font-weight: 700;
+    color: #3e638b;
+    text-align: center;
+    letter-spacing: 1px;
+    padding: 0 0 15px 0;
+}
+.textblk p
+{
+    font-size: 18px;
+    color: #575757;
+    padding-bottom: 30px;
+    line-height: 35px;
+}
+.service-img
+{
+    position: relative;
+    clip-path: polygon(100% 0%, 75% 50%, 100% 100%, 25% 100%, 0% 50%, 25% 0%);
+}
+.service2-img
+{
+    position: relative;
+    clip-path: polygon(75% 0%, 100% 50%, 75% 100%, 0% 100%, 25% 50%, 0% 0%);
+}
+.textblk ul li
+{
+    margin: 20px 0;
+    font-size: 18px;
+    color: #575757;
+    display: flex;
+}
+.textblk ul li img
+{
+    width: 26px;
+    height: 26px;
+    margin-right: 20px;
+}
+@media (max-width: 768px) {
+    .textblk ul li img
+    {
+        width: 26px;
+        height: 26px;
+    }
+}
+/* Why Choose Us */
+.chooseus-main
+{
+    background-image: url('../images/bg_light.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+}
+.choosecard-icon
+{
+    margin-right: 20px;
+}
+.choosecard-icon img
+{
+    width: 70px;
+    height: 70px;
+}
+.choosecard
+{
+    background: #FFFFFF;
+    padding: 40px 30px;
+    width: 100%;
+}
+.choosecard-body h4
+{
+    color: #1b8bcc;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.choosecard-body p
+{
+    color: #424143;
+    font-size: 15px;
+}
+/* Service Area Section */
+.servicearea-image
+{
+    padding: 40px;
+}
+.sevice-list img
+{
+    width: 20px;
+    margin-right: 10px;
+}
+@media (max-width: 768px) {
+    .sevice-list img
+    {
+        width: 20px;
+        height: 20px;
+    }
+}
+.servicearea-wrap h3
+{
+    padding: 50px 0;
+    color: #008cd3;
+    padding-bottom: 30px;
+    font-size: 50px;
+}
+.servicearea-wrap p
+{
+    font-size: 18px;
+    line-height: 25px;
+    color: #424143;
+}
+.sevice-list a
+{
+    color: #424143;
+    font-size: 18px;
+    line-height: 50px;
+}
+/* Get Back Section */
+.getback-main
+{
+    background-image: url('../images/bg_hero.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+    height: 50vh;
+}
+.getback-content
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+}
+.getback-content h1
+{
+    font-size: 60px;
+    color: #fff;
+    text-align: center;
+    padding-bottom: 30px;
+}
+@media (max-width: 768px) {
+    .getback-content h1
+    {
+    font-size: 30px;
+    }
+}
+/* Promotion Card Area */
+.promotion-card
+{
+    background: #f0f1f1;
+    padding: 20px 0;
+    padding-left: 5px;
+    width: 100%;
+    overflow-x: hidden;
+    border: 7px solid transparent;
+}
+.promotion-card:hover
+{
+    border: 7px solid #008bd0;
+}
+.promotion-card img
+{
+    width: auto;
+    height: 120px;
+}
+.promotion-card h5
+{
+    width: 100%;
+    color: #008bd0;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+.promotion-card p
+{
+    color: #6d6e72;
+    font-size: 16px;
+}
+/* Footer */
+.socmed img
+{
+    width: 80%;
+}
+.socmed 
+{
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+
+
